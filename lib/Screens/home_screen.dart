@@ -13,7 +13,7 @@ class _ScreenHomeState extends State<ScreenHome> {
     return const Scaffold(
       body: SafeArea(
         child: Center(
-          child: Text("hiiiii"),
+          child: Text("hlooo"),
         ),
       ),
     );
