@@ -5,8 +5,8 @@ import 'package:uni_links/uni_links.dart';
 String url="nothing";
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
   url = await initDeepLinkState();
+  runApp(const MyApp());
 }
 
 
@@ -36,7 +36,6 @@ Future<String> initDeepLinkState() async {
 }
 
 String handleDeepLink(Uri uri) {
-  // Perform actions based on the deep link
   print("Handling deep link: ${uri.toString()}");
   return uri.toString();
 }
