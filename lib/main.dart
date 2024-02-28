@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:phishguard/Screens/splash_screen.dart';
 import 'package:uni_links/uni_links.dart';
 
@@ -16,8 +17,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
+      theme: ThemeData(
+    textTheme: GoogleFonts.urbanistTextTheme(
+      Theme.of(context).textTheme)),
       home: ScreenSplash(),
     );
   }
