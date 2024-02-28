@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< Updated upstream
+=======
+import 'package:phishguard/Screens/widgets/my_widgets.dart';
+>>>>>>> Stashed changes
 
 class ScreenHome extends StatefulWidget {
   final String response;
