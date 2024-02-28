@@ -36,6 +36,7 @@ Future<String> initDeepLinkState() async {
 }
 
 String handleDeepLink(Uri uri) {
+  // Perform actions based on the deep link
   print("Handling deep link: ${uri.toString()}");
   return uri.toString();
 }
