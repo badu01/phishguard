@@ -35,7 +35,7 @@ class _ScreenSplashState extends State<ScreenSplash> {
               height: 100,
             ),
             Image.asset(
-              'assets/logo.png',
+              'assets/logo_main.png',
               height: 200,
             ),
             SizedBox(

@@ -25,15 +25,15 @@ Widget siteNotOkWidget(BuildContext ctx) {
                 textAlign: TextAlign.center,
                 ),
               ),
-               MaterialButton(onPressed: (){
-                // Navigator.of(ctx).pop();
-               },
-               child: Text("Back to safety",
-               style: TextStyle(
-                color: const Color.fromARGB(255, 3, 129, 68),
-                fontWeight: FontWeight.w800
-               ),),
-               )
+              //  MaterialButton(onPressed: (){
+              //   // Navigator.of(ctx).pop();
+              //  },
+              //  child: Text("Back to safety",
+              //  style: TextStyle(
+              //   color: const Color.fromARGB(255, 3, 129, 68),
+              //   fontWeight: FontWeight.w800
+              //  ),),
+              //  )
             ],
           ),
       ),
