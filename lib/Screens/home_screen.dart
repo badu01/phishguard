@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:phishguard/Screens/web_screen.dart';
 
 import 'package:phishguard/Screens/widgets/my_widgets';
 
@@ -13,7 +14,7 @@ class ScreenHome extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Center(
-          child: response =='bad'?siteNotOkWidget():siteOkWidget(),
+          child: response =='bad'?siteNotOkWidget():MyHomePage(),
         ),
       ),
     );

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:phishguard/Screens/splash_screen.dart';
+import 'package:phishguard/Screens/web_screen.dart';
 import 'package:uni_links/uni_links.dart';
 
-String url="nothing";
+String url="https://github.com/badu01/phishguard.git";
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   url = await initDeepLinkState();
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
     textTheme: GoogleFonts.urbanistTextTheme(
       Theme.of(context).textTheme)),
-      home: ScreenSplash(),
+      home: const ScreenSplash(),
     );
   }
 }
@@ -35,7 +36,7 @@ Future<String> initDeepLinkState() async {
     // Handle the initial deep link as needed
     return handleDeepLink(initialUri);
   } else {
-    return "no url";
+    return "https://github.com/badu01/phishguard.git";
   }
 }
 
