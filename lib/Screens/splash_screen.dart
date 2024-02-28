@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:phishguard/Screens/home_screen.dart';
 
 class ScreenSplash extends StatefulWidget {
   const ScreenSplash({super.key});
@@ -9,6 +10,12 @@ class ScreenSplash extends StatefulWidget {
 
 class _ScreenSplashState extends State<ScreenSplash> {
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    gotoHome(context);
+  }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
@@ -16,4 +23,8 @@ class _ScreenSplashState extends State<ScreenSplash> {
       ),
     );
   }
+
 }
+  gotoHome(BuildContext ctx) async{
+      Navigator.of(ctx).pushReplacement(MaterialPageRoute(builder: (ctx1)=>ScreenHome()));
+  }

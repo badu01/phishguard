@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:phishguard/Screens/home_screen.dart';
 import 'package:phishguard/Screens/splash_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: ScreenSplash(),
+      home: ScreenHome(),
     );
   }
 }
