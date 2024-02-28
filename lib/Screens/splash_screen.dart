@@ -26,7 +26,7 @@ class _ScreenSplashState extends State<ScreenSplash> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SafeArea(
-      child: Container(
+      child: SizedBox(
         width: double.infinity,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,

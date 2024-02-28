@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:phishguard/Screens/splash_screen.dart';
-import 'package:phishguard/Screens/web_screen.dart';
 import 'package:uni_links/uni_links.dart';
 
 String url="https://github.com/badu01/phishguard.git";

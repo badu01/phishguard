@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:phishguard/main.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
