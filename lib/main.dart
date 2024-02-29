@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:phishguard/Screens/splash_screen.dart';
 import 'package:uni_links/uni_links.dart';
 
-String url="https://github.com/badu01/phishguard.git";
+String url="https://www.google.com/";
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   url = await initDeepLinkState();
@@ -35,7 +35,7 @@ Future<String> initDeepLinkState() async {
     // Handle the initial deep link as needed
     return handleDeepLink(initialUri);
   } else {
-    return "https://github.com/badu01/phishguard.git";
+    return "https://www.google.com/";
   }
 }
 

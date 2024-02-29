@@ -26,7 +26,7 @@ Widget siteNotOkWidget(BuildContext ctx) {
                 ),
               ),
               //  MaterialButton(onPressed: (){
-              //   // Navigator.of(ctx).pop();
+              //   // Navigator.pop(ctx);
               //  },
               //  child: Text("Back to safety",
               //  style: TextStyle(
