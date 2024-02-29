@@ -1,7 +1,6 @@
 import 'package:android_intent_plus/android_intent.dart';
 import 'package:flutter/material.dart';
 import 'package:phishguard/main.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -45,13 +44,13 @@ showBottom(BuildContext context) async{
                 SizedBox(
                   height: 20,
                 ),
-                Image.network('https://brandlogos.net/wp-content/uploads/2015/09/google-logo-brandlogos.net_.png',
-                height: 80,
-                ),
+                Icon(Icons.travel_explore_sharp,
+                size: 50,
+                color: Color.fromARGB(255, 12, 178, 98),),
                 SizedBox(
                   height: 20,
                 ),
-                Text('Open in Google',
+                Text('Open in Browser',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w500
@@ -61,7 +60,7 @@ showBottom(BuildContext context) async{
                       launchUrl();
                     
                   },
-                  child: Text("Go to google"),
+                  child: Text("Go to Browser"),
                 )
               ],
             ),
